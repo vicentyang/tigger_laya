@@ -37,5 +37,9 @@ export default {
 
     'alpha': function (v) {
         this.realObject.alpha = v;
+    },
+
+    'angle': function (v) {
+        this.realObject.angle = v;
     }
 };

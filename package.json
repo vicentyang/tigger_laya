@@ -1,5 +1,5 @@
 {
-  "name": "laya",
+  "name": "tigger_laya",
   "version": "1.1.2",
   "description": "build phaser project with template, data bind, and webpack hmr",
   "keywords": [
@@ -7,7 +7,7 @@
     "typescript",
     "webpack"
   ],
-  "author": "huaguzheng",
+  "author": "vicentyang",
   "main": "src/index.ts",
   "scripts": {
     "dev": "node webpack/dev-server.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/huaguhzheng/laya.git"
+    "url": "https://github.com/vicentyang/tigger_laya.git"
   },
   "license": "MIT",
   "devDependencies": {

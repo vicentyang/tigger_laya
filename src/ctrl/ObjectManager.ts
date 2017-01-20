@@ -12,7 +12,7 @@ export default class ObjectManager {
     static deleteObject(id) {
         let o = ObjectManager.getObject(id);
         if (o.constructor['name'] === 'Shadow') {
-            console.log(o.constructor['name'], id);
+            // console.log(o.constructor['name'], id);
         }
         ObjectManager.objects.delete(id);
     }

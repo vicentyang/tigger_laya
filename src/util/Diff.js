@@ -81,4 +81,4 @@ var b = Object.assign({}, a, {
         }
     }
 });
-console.log(deep(b, [], b, gameDefault, []));
+// console.log(deep(b, [], b, gameDefault, []));

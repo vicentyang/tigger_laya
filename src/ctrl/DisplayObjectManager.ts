@@ -85,6 +85,7 @@ export default class DisplayObjectManager {
         if (node.check.some(v => !v(own))) {
             return;
         }
+
         let game = own.getLayaGame();
         if (container === undefined) {
             container = own.getRootContainer();

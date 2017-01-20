@@ -78,7 +78,7 @@ let a = Object.assign({}, gameDefault, {
     auto: true
 });
 
-let b = Object.assign({}, a, {
+Object.assign({}, a, {
     connect: {
         code: {
             v: '001'
@@ -86,4 +86,4 @@ let b = Object.assign({}, a, {
     }
 });
 
-console.log(deep(b, [], b, gameDefault, []));
+// console.log(deep(b, [], b, gameDefault, []));
